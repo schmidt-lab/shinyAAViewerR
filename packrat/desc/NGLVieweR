@@ -1,0 +1,34 @@
+Package: NGLVieweR
+Title: Interactive 3D Visualization of Molecular Structures
+Version: 1.3.3
+Authors@R: c( 
+    person("Niels", "van der Velden", role = c("aut", "cre"), email = "n.s.j.vandervelden@gmail.com"),
+    person("Alexander", "Rose", role = "cph", comment = 'NGL.js library'))
+Maintainer: Niels van der Velden <n.s.j.vandervelden@gmail.com>
+Description: Provides an 'htmlwidgets' <https://www.htmlwidgets.org/> interface to 'NGL.js' <http://nglviewer.org/ngl/api/>.
+    'NGLvieweR' can be used to visualize and interact with protein databank ('PDB') and structural files in R and Shiny applications.
+    It includes a set of API functions to manipulate the viewer after creation in Shiny.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: htmlwidgets, magrittr, tools, shiny
+Suggests: knitr, webshot, markdown, rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/nvelden/NGLVieweR
+BugReports: https://github.com/nvelden/NGLVieweR/issues
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: NGLVieweR
+RemoteUsername: nvelden
+RemoteRef: HEAD
+RemoteSha: 6e49fe329e6576078019e7e862fd64966df2d2dd
+GithubRepo: NGLVieweR
+GithubUsername: nvelden
+GithubRef: HEAD
+GithubSHA1: 6e49fe329e6576078019e7e862fd64966df2d2dd
+NeedsCompilation: no
+Packaged: 2023-04-03 16:00:25 UTC; schmida
+Author: Niels van der Velden [aut, cre],
+  Alexander Rose [cph] (NGL.js library)
+Built: R 4.2.3; ; 2023-04-03 16:00:26 UTC; unix
