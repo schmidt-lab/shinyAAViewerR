@@ -3,8 +3,6 @@
 
 # **shinyAAVieweR** - Visualize AAV Insertion Fitness Maps in the web browser
 
-### [Click here](https://schmidt-lab.shinyapps.io/shinyAAVieweR/) to open the web application.
-
 ## Description
 
 This is an adaptation of **shinyNGLVieweR** developed by [Niels van der Velden](https://github.com/nvelden) to display AAV VP1 Domain Insertion Fitness maps. The UI is based on the [NGLVieweR](https://nvelden.github.io/NGLVieweR/) package, which is build on top of the [NGL.js](http://nglviewer.org/ngl/api/) JavaScript library. It can be used to visualize and interact with protein data bank (PDB) and structural files directly in the web browser.  
